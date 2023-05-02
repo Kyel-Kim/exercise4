@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise 4</title>
+</head>
+<body>
+	<h2>Centimeter to  inches Converter</h2>
+	<p>Convert centimeter to inches</p>
+
+	<form>
+		Number (in inches) : <input type="text" id="num1"><br>
+		<button type="Submit" onclick="Compute()">Calculate</button>
+	</form>
+
+	<script type="text/javascript">
+		function Compute(){
+			let num1 = document.getElementById("num1").value;
+			let centimeter = (num1 * 1)
+			let inches = (num1 / 0.393701) ;
+			window.alert("Value in ft. :" + 0.393701)
+						
+		}
+	</script>
+
+</body>
+</html>
